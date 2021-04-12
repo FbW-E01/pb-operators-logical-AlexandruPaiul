@@ -11,12 +11,19 @@ const isCatBetter = false;
 
 console.log(isDogBetter && isCatBetter);
 
+// it's false because the the both variables are different
+
 // - b) isDogBetter OR isCatBetter.
 
 console.log(isDogBetter || isCatBetter);
 
+// it's true because one of them is true 
+
 // - c) NOT (isDogBetter AND isCatBetter).
 console.log(!(isDogBetter && isCatBetter));
+// it's true because it's checking if are different
+
+
 
 // 2. Declare three more variables `atoms`, `sandGrains`, `starsInSky`. Give these variables number values.
 const atom = 10;
